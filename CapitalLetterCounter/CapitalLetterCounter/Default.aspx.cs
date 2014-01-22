@@ -19,11 +19,7 @@ namespace CapitalLetterCounter
         {
             int capitalCount = TextAnalyzer.GetNumberOfCapitals(txtUserInput.Text);
             lblResult.Text = "Texten innehåller " + capitalCount + " versaler.";
-            this.DisableForm();
-        }
-
-        private void DisableForm()
-        {
+            lblResult.Visible = true;
             txtUserInput.Enabled = false;
             btnSubmit.Visible = false;
             btnClear.Visible = true;

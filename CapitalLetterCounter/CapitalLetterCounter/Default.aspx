@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Hur många versaler?</title>
     <link href="~/styles.css" rel="stylesheet" />
 </head>
 <body>
@@ -18,7 +18,7 @@
                 <asp:TextBox ID="txtUserInput" runat="server" TextMode="MultiLine"></asp:TextBox>
                 <asp:Button ID="btnSubmit" runat="server" Text="Räkna" onClick="btnSubmit_Click"/>
                 <asp:Button ID="btnClear" runat="server" Text="Rensa" Visible="false" />
-                <asp:Label ID="lblResult" runat="server"></asp:Label>
+                <asp:Label ID="lblResult" runat="server" Visible="false"></asp:Label>
             </div>
             </form>
         </div>
